@@ -1,0 +1,27 @@
+.login-box{
+    padding: 35px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.login-text{
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: 1.5em;
+    font-family: monospace;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+button:hover{
+background: rgb(11, 44, 38);
+}
+
+button{
+    font-family: monospace;
+}
+
+input{
+    font-family: monospace;
+}

@@ -1,0 +1,52 @@
+// global styeles and variabble values
+
+@import url('https://fonts.googleapis.com/css2?family=Lato|Nunito:400,700');
+
+$torquoise: #44ddd0;
+$light-green: #45f69e;
+$green: #27d7a1;
+$light: #f8f8f8;
+$dark-green: rgb(0, 100, 80);
+
+
+// update bulma global variables
+
+$family-sans-serif: "Nunitor", "sans-serif";
+$priamry-color: $green;
+
+$link: $light-green;
+
+
+// update bulma component variable
+
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+
+// custom global styling
+html {
+    background: linear-gradient(to right top, $torquoise, $green);
+}
+
+html, body {
+    height: 100%;
+}
+
+h1{
+    font-size: 1.2em;
+}
+// centered content
+
+.centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    color: $torquoise
+}
+

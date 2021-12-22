@@ -1,0 +1,10 @@
+.list-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background: red;
+}
+.list-menu .list-menu-item {
+    color: #fff
+}
